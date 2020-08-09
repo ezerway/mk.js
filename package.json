@@ -3,6 +3,9 @@
     "version": "0.0.1",
     "author": "Minko Gechev @mgechev",
     "description": "Node.js server for mk.js",
+    "scripts": {
+      "start": "node ./bin/www"
+    },
     "dependencies": {
         "express": "3.x.x",
         "socket.io": "0.9.x"
